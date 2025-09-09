@@ -235,3 +235,72 @@ Curso de início rápido com _Github_ by DIO ⌨️💜.
 		</tr>
 	</tbody>
 </table>
+# Desafio DIO - Máquinas Virtuais no Azure
+
+Este repositório contém a documentação do desafio de projeto da **DIO**, onde o objetivo é **consolidar os conhecimentos em máquinas virtuais utilizando o Microsoft Azure**.
+
+---
+
+## 🚀 Objetivos do Desafio
+- Aplicar conceitos aprendidos em um ambiente prático;
+- Documentar processos técnicos de forma clara e estruturada;
+- Utilizar o GitHub como ferramenta de documentação e compartilhamento.
+
+---
+
+## 🖥️ Passo a Passo Realizado
+
+### 1. Criação da Máquina Virtual
+- Acessado o **Portal do Azure**;
+- Selecionada a opção **Máquina Virtual**;
+- Configurações principais:
+  - Sistema Operacional: **Windows/Linux (escolher o usado)**;
+  - Região: *(informar a região escolhida)*;
+  - Tamanho: *(informar o tipo de máquina selecionada)*;
+  - Usuário Administrador e Senha definidos.
+
+### 2. Configuração de Rede
+- Criado grupo de recursos para organização;
+- Configurado **IP público**;
+- Liberada porta de acesso (ex: RDP para Windows ou SSH para Linux).
+
+### 3. Acesso à Máquina Virtual
+- Realizado acesso via **RDP (Windows)** ou **SSH (Linux)**;
+- Validação da conectividade;
+- Execução de comandos básicos no sistema operacional.
+
+---
+
+## 📂 Estrutura do Repositório
+
+---
+
+## 📸 Evidências
+Aqui estão algumas capturas de tela do processo:
+
+- Criação da máquina virtual  
+  ![Criação da VM](./images/criacao-vm.png)
+
+- Configuração de rede  
+  ![Configuração de Rede](./images/rede.png)
+
+- Acesso à máquina virtual  
+  ![Acesso à VM](./images/acesso-vm.png)
+
+*(adicione suas prints na pasta `/images` e atualize os links acima)*
+
+---
+
+## ✅ Conclusão
+Com este laboratório, foi possível:
+- Entender como criar e configurar uma máquina virtual no **Microsoft Azure**;
+- Validar a conectividade e acesso remoto;
+- Utilizar o **GitHub** como repositório de documentação técnica.
+
+---
+
+## 🔗 Links Úteis
+- [Portal do Azure](https://portal.azure.com/)  
+- [Documentação Azure - Criar Máquina Virtual](https://learn.microsoft.com/pt-br/azure/virtual-machines/windows/quick-create-portal)  
+- [Markdown no GitHub](https://docs.github.com/pt/get-started/writing-on-github)  
+
